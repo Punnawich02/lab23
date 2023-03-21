@@ -17,7 +17,7 @@ int main(int argc ,char *argv[])
         {
             sum += atof(argv[i]);
         }
-        cout << "Average of " << argc + 1 << "numbers = " << sum/(double(argc) - 1) << endl; 
+        cout << "Average of " << argc + 1 << " numbers = " << sum/(double(argc) - 1) << endl; 
         cout << "---------------------------------";
     }
 }
